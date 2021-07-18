@@ -1,4 +1,4 @@
-# CycloneDXDirectoryConverter
+# CycloneDX Directory Converter
 A buddy of mine was having trouble with the Cyclone CLI, so I whipped up a simple way for him to convert all files in a directory to CycloneDX json files.
 
 This really was less than an hour of work, but it never hurts to share.
