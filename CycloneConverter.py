@@ -2,8 +2,8 @@ from os import listdir
 from os.path import join as path_join
 from subprocess import check_output
 
-inDir=r'.\csv'
-outDir=r'.\json'
+inDir=r'.\csv' #Directory holding input files
+outDir=r'.\json' #Directory holding output files
 
 #Change to whatever version your system is running, remove the folder if on Path
 cycloneAddress=r'.\cyclonedx-win-x64'
@@ -30,4 +30,3 @@ for each_file in files:
     print(f"Something went wrong with converting {filename} to json!")
 
 print(f"\n{complete} Successful conversions. {len(files)-complete} failures!")
-   
